@@ -99,6 +99,11 @@ html_theme_options = {
     'navigation_depth': -1,
 }
 
+html_static_path = ['_static']
+html_css_files = [
+    'css/custom.css',  # override some properties
+]
+
 html_context = {
     'display_github': True,
     'github_user': 'ros2',
