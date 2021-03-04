@@ -1,0 +1,16 @@
+/* override image height without auto for svg */
+.logo img {
+    height: 35px;
+}
+
+.logo #intel img {
+    height: 50px;
+}
+
+.logo #samsung img {
+    height: 25px;
+}
+
+.logo #tri img {
+    height: 50px;
+}
